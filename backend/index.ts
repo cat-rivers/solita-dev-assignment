@@ -1,3 +1,3 @@
-function hello(helloName: string): string {
-  return `hello ${helloName}`;
-}
+import runApp from "./src/api";
+
+runApp();
