@@ -17,6 +17,7 @@
   "scripts": {
     "dev": "tsnd --respawn index.ts",
     "test": "cross-env NODE_ENV=test jest --testTimeout=10000",
+    "test-ci": "cross-env NODE_ENV=test jest --ci --forceExit  --detectOpenHandles --testTimeout=10000",
     "test-watch": "cross-env NODE_ENV=test jest --watch --testTimeout=10000"
   }
 }
